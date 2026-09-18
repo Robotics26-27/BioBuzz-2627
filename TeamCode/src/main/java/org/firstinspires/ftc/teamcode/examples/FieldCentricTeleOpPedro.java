@@ -10,6 +10,9 @@ import org.firstinspires.ftc.teamcode.pedroPathing.Constants;
 /**
  * Field centric mecanum drive, using the Pedro follower.
  *
+ * Paired with FieldCentricTeleOpImu, which does the same job on raw motors and the IMU.
+ * Use that one if the follower is not tuned yet; use this one otherwise.
+ *
  * Push the left stick away from you and the robot drives away from you, no matter which
  * way it is pointing. Right stick turns.
  *
@@ -27,9 +30,10 @@ import org.firstinspires.ftc.teamcode.pedroPathing.Constants;
  *   right stick x   turn
  *   left bumper     hold for robot centric driving
  *   right trigger   hold for slow mode
+ *   options         re-zero the heading (point robot away from driver first)
  */
-@TeleOp(name = "Example: Field Centric TeleOp", group = "Examples")
-public class FieldCentricTeleOp extends OpMode {
+@TeleOp(name = "Example: Field Centric (Pedro)", group = "Examples")
+public class FieldCentricTeleOpPedro extends OpMode {
 
     /** Multiplier applied to every axis while the slow mode trigger is held. */
     private static final double SLOW_MODE_SCALE = 0.35;
@@ -57,6 +61,10 @@ public class FieldCentricTeleOp extends OpMode {
 
     @Override
     public void loop() {
+        if (gamepad1.optionsWasPressed()) {
+            resetHeading();
+        }
+
         double scale = gamepad1.right_trigger > 0.5 ? SLOW_MODE_SCALE : 1.0;
 
         // Stick signs match pedroPathing/Tuning.java:183, which is the convention this
@@ -72,5 +80,21 @@ public class FieldCentricTeleOp extends OpMode {
         telemetry.addData("x", "%.1f", follower.getPose().getX());
         telemetry.addData("y", "%.1f", follower.getPose().getY());
         telemetry.addData("heading (deg)", "%.1f", Math.toDegrees(follower.getPose().getHeading()));
+    }
+
+    /**
+     * Re-zero the heading the field centric frame is measured from, keeping x and y where
+     * they are. Use it if the localizer has drifted and "away from the driver" has stopped
+     * meaning away from the driver.
+     *
+     * VERIFY THIS ON THE ROBOT. setStartingPose is the only pose setter this repo proves
+     * exists (pedroPathing/Tuning.java uses it), but every use there is at init, not
+     * mid-match. Drive, press options, and check the heading telemetry snaps to 0 while x
+     * and y hold. If it does not, Pedro 2.x also has a setTeleOpDrive overload taking an
+     * offsetHeading, which is the cleaner fix -- I could not confirm it exists in 2.1.2.
+     */
+    private void resetHeading() {
+        Pose current = follower.getPose();
+        follower.setStartingPose(new Pose(current.getX(), current.getY(), 0));
     }
 }
