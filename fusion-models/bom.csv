@@ -1,0 +1,33 @@
+sku,name,qty,product_url,note
+3209-0001-0007,"Strafer chassis kit (rails, cross A/B, 4 mecanum, 4 drive motors)",1,https://www.gobilda.com/strafer-chassis-kit-104mm-gripforce-mecanum-wheels/,
+1117-0040-0352,lane,2,https://www.gobilda.com/clear-polycarbonate-grid-plate-1-5mm-thickness-5-x-44-hole-40-x-352mm/,
+1117-0088-0352,deck,1,https://www.gobilda.com/clear-polycarbonate-grid-plate-1-5mm-thickness-11-x-44-hole-88-x-352mm/,
+1117-0088-0352,ramp,1,https://www.gobilda.com/clear-polycarbonate-grid-plate-1-5mm-thickness-11-x-44-hole-88-x-352mm/,
+1120-0005-0144,post,1,https://www.gobilda.com/1120-series-u-channel-5-hole-144mm-length/,
+1120-0005-0144,upright,2,https://www.gobilda.com/1120-series-u-channel-5-hole-144mm-length/,
+1120-0010-0264,bar,2,https://www.gobilda.com/1120-series-u-channel-10-hole-264mm-length/,
+1120-0010-0264,crossmember,1,https://www.gobilda.com/1120-series-u-channel-10-hole-264mm-length/,
+1120-0013-0336,upright,2,https://www.gobilda.com/1120-series-u-channel-13-hole-336mm-length/,
+1201-0043-0002,mount,17,https://www.gobilda.com/1201-series-quad-block-pattern-mount-43-2/,
+1310-0016-4008,hub,2,https://www.gobilda.com/1310-series-hyper-hub-8mm-rex-bore/,
+1611-0514-4008,bearing,14,https://www.gobilda.com/1611-series-flanged-ball-bearing-8mm-rex-id-x-14mm-od-5mm-thickness-2-pack/,sold as 2-pack
+2106-4008-2880,shaft,1,https://www.gobilda.com/8mm-rex-shaft-with-e-clip-stainless-steel-288mm-length/,
+2106-4008-3840,shaft,3,https://www.gobilda.com/8mm-rex-shaft-with-e-clip-stainless-steel-384mm-length/,
+3422-4008-0020,pulley,8,https://www.gobilda.com/2mm-pitch-gt2-pinion-timing-pulley-8mm-rex-bore-20-tooth/,
+3423-0006-0184,belt,1,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-184mm-pitch-length-92-tooth/,
+3423-0006-0264,belt,1,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-264mm-pitch-length-132-tooth/,
+3423-0006-0328,belt,1,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-328mm-pitch-length-164-tooth/,
+3423-0006-0514,belt,1,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-514mm-pitch-length-257-tooth/,
+3614-0014-0096,rhino,2,https://www.gobilda.com/3614-series-rhino-wheel-14mm-bore-96mm-diameter-30a-durometer/,
+5203-2402-0001,motor,1,https://www.gobilda.com/5203-series-yellow-jacket-motor-1-1-ratio-24mm-length-8mm-rex-shaft-6000-rpm-3-3-5v-encoder/,
+5203-2402-0014,motor,2,https://www.gobilda.com/5203-series-yellow-jacket-planetary-gear-motor-13-7-1-ratio-24mm-length-8mm-rex-shaft-435-rpm-3-3-5v-encoder/,
+3D-PRINT,funnel_guide_left,1,,prints/funnel_guide_left.step|stl
+3D-PRINT,funnel_guide_right,1,,prints/funnel_guide_right.step|stl
+3D-PRINT,ramp_bracket,2,,prints/ramp_bracket.step|stl
+3D-PRINT,wall_clip,4,,prints/wall_clip.step|stl
+REV,battery_envelope,1,,approximate envelope
+REV,control_hub_envelope,1,,approximate envelope
+REV,expansion_hub_envelope,1,,approximate envelope
+TEAM,existing_band_roller-intake,1,,"team-supplied, 50 mm stand-in"
+TEAM,existing_band_roller-xa,1,,"team-supplied, 50 mm stand-in"
+TEAM,existing_band_roller-xb,1,,"team-supplied, 50 mm stand-in"
