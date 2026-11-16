@@ -10,7 +10,7 @@ import math
 
 IN_M = 0.0254
 G_M_S2 = 9.81
-H0_IN = 10.63                 # launcher exit height above floor
+H0_IN = 12.12  # launch exit height from build_robot.py (307.9 mm)
 H0_M = H0_IN * IN_M
 BALL_R_IN = 1.4              # POLLEN radius (2.8 in dia)
 LIP_H_IN = 53.5              # CELL lower lip height
