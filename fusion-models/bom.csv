@@ -3,28 +3,30 @@ sku,name,qty,product_url,note
 1117-0040-0352,lane,2,https://www.gobilda.com/clear-polycarbonate-grid-plate-1-5mm-thickness-5-x-44-hole-40-x-352mm/,
 1117-0088-0352,deck,1,https://www.gobilda.com/clear-polycarbonate-grid-plate-1-5mm-thickness-11-x-44-hole-88-x-352mm/,
 1117-0088-0352,ramp,1,https://www.gobilda.com/clear-polycarbonate-grid-plate-1-5mm-thickness-11-x-44-hole-88-x-352mm/,
-1120-0005-0144,bar,2,https://www.gobilda.com/1120-series-u-channel-5-hole-144mm-length/,
-1120-0005-0144,post,1,https://www.gobilda.com/1120-series-u-channel-5-hole-144mm-length/,
-1120-0005-0144,side,2,https://www.gobilda.com/1120-series-u-channel-5-hole-144mm-length/,
+1120-0003-0096,post,1,https://www.gobilda.com/1120-series-u-channel-3-hole-96mm-length/,
+1120-0005-0144,bar,1,https://www.gobilda.com/1120-series-u-channel-5-hole-144mm-length/,
 1120-0005-0144,upright,2,https://www.gobilda.com/1120-series-u-channel-5-hole-144mm-length/,
+1120-0009-0240,ladder,2,https://www.gobilda.com/1120-series-u-channel-9-hole-240mm-length/,
 1120-0010-0264,crossmember,1,https://www.gobilda.com/1120-series-u-channel-10-hole-264mm-length/,
+1120-0013-0336,brace,1,https://www.gobilda.com/1120-series-u-channel-13-hole-336mm-length/,
 1120-0013-0336,upright,2,https://www.gobilda.com/1120-series-u-channel-13-hole-336mm-length/,
 1201-0043-0002,mount,13,https://www.gobilda.com/1201-series-quad-block-pattern-mount-43-2/,motor face: 6x M4 threaded (16 mm square + 2 at +-12 mm)
-1310-0016-4008,hub,6,https://www.gobilda.com/1310-series-hyper-hub-8mm-rex-bore/,
-1611-0514-4008,bearing,14,https://www.gobilda.com/1611-series-flanged-ball-bearing-8mm-rex-id-x-14mm-od-5mm-thickness-2-pack/,sold as 2-pack
-2102-0008-0260,shaft,2,https://www.gobilda.com/2102-series-stainless-steel-rex-shaft-8mm-diameter-260mm-length/,
-2106-4008-3840,shaft,2,https://www.gobilda.com/8mm-rex-shaft-with-e-clip-stainless-steel-384mm-length/,
-3400-0014-0064,pulley,4,https://www.gobilda.com/3400-series-hub-mount-round-belt-pulley-14mm-bore-64mm-pd/,
-3405-0005-0573,cord,2,https://www.gobilda.com/3405-series-round-belt-5mm-cord-diameter-573mm-circumference/,"fixed loop, ~7 % stretch at 206.5 mm centres"
-3422-4008-0020,pulley,6,https://www.gobilda.com/2mm-pitch-gt2-pinion-timing-pulley-8mm-rex-bore-20-tooth/,
+1310-0016-4008,hub,2,https://www.gobilda.com/1310-series-hyper-hub-8mm-rex-bore/,
+1611-0514-4008,bearing,26,https://www.gobilda.com/1611-series-flanged-ball-bearing-8mm-rex-id-x-14mm-od-5mm-thickness-2-pack/,sold as 2-pack
+2102-0008-0220,shaft,5,https://www.gobilda.com/2102-series-stainless-steel-rex-shaft-8mm-diameter-220mm-length/,
+2102-0008-0260,shaft,1,https://www.gobilda.com/2102-series-stainless-steel-rex-shaft-8mm-diameter-260mm-length/,
+2106-4008-3840,shaft,1,https://www.gobilda.com/8mm-rex-shaft-with-e-clip-stainless-steel-384mm-length/,
+3422-4008-0020,pulley,14,https://www.gobilda.com/2mm-pitch-gt2-pinion-timing-pulley-8mm-rex-bore-20-tooth/,
+3423-0006-0136,belt,4,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-136mm-pitch-length-68-tooth/,
 3423-0006-0184,belt,1,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-184mm-pitch-length-92-tooth/,
-3423-0006-0264,belt,1,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-264mm-pitch-length-132-tooth/,
-3423-0006-0376,belt,1,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-376mm-pitch-length-188-tooth/,
+3423-0006-0376,belt,2,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-376mm-pitch-length-188-tooth/,
+3613-4008-0048,gecko,7,https://www.gobilda.com/gripforce-gecko-wheel-8mm-rex-bore-48mm-diameter-30a-durometer/,
 3614-0014-0096,rhino,2,https://www.gobilda.com/3614-series-rhino-wheel-14mm-bore-96mm-diameter-30a-durometer/,
 5203-2402-0001,motor,1,https://www.gobilda.com/5203-series-yellow-jacket-motor-1-1-ratio-24mm-length-8mm-rex-shaft-6000-rpm-3-3-5v-encoder/,
 5203-2402-0014,motor,2,https://www.gobilda.com/5203-series-yellow-jacket-planetary-gear-motor-13-7-1-ratio-24mm-length-8mm-rex-shaft-435-rpm-3-3-5v-encoder/,
-3D-PRINT,funnel_guide_left,1,,prints/funnel_guide_left.step|stl
-3D-PRINT,funnel_guide_right,1,,prints/funnel_guide_right.step|stl
+3D-PRINT,funnel_guide,2,,prints/funnel_guide.step|stl
+3D-PRINT,ladder_spacer_lower,2,,prints/ladder_spacer_lower.step|stl
+3D-PRINT,ladder_spacer_upper,2,,prints/ladder_spacer_upper.step|stl
 3D-PRINT,ramp_bracket,2,,prints/ramp_bracket.step|stl
 3D-PRINT,wall_clip,4,,prints/wall_clip.step|stl
 REV,battery_envelope,1,,approximate envelope
